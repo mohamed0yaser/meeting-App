@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meeting_application/resources/auth_methods.dart';
 import 'package:meeting_application/widgets/custom_button.dart';
 
 class LogInPage extends StatefulWidget {
@@ -9,6 +10,7 @@ class LogInPage extends StatefulWidget {
 }
 
 class _LogInPageState extends State<LogInPage> {
+  final AuthMethods _authMethods = AuthMethods();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,7 +28,12 @@ class _LogInPageState extends State<LogInPage> {
           const SizedBox(height: 20,),
           CustomButton(
             text: 'Login',
-            onPressed: (){},
+            onPressed: ()async{
+              bool isSignedIn = await _authMethods.signInWithGoogle(context);
+              if(isSignedIn){
+                Navigator.pushReplacementNamed(context, '/home');
+              }
+            },
             )
         ],
       )

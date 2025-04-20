@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "428733370001",
+    "project_id": "meeting-application173",
+    "storage_bucket": "meeting-application173.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428733370001:android:cc6bf76f4d9bee0c417930",
+        "android_client_info": {
+          "package_name": "com.example.meeting_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428733370001-e56cvk6levn85tpe9bb3n77sd9fp3agv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meeting_application",
+            "certificate_hash": "50a534a27065cefc8bd73c9ba8f268968e79d5c0"
+          }
+        },
+        {
+          "client_id": "428733370001-1986f1psvoudrtfhai0vaiktv76m44hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQKgHm_--A6EAJ3-f7_PTI23Ela5SIIAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428733370001-1986f1psvoudrtfhai0vaiktv76m44hp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "428733370001-qb47rmumnn4gtts69hs4c75tc1knd7fm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.meetingApplication"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
